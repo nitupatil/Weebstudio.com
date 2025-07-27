@@ -1,0 +1,1522 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Professional Web Development Services | AI Website Builder - WeebStudio</title>
+  <meta name="description" content="Comprehensive web development services including AI website builder, e-commerce solutions, SEO optimization, and custom web design for all business needs.">
+  <meta name="keywords" content="web development services, AI website builder, ecommerce website, professional web design, SEO services, responsive websites, business websites, portfolio websites">
+  <meta name="author" content="WeebStudio">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://yourdomain.com/services.html" />
+  
+  <!-- Open Graph / Social Media Meta Tags -->
+  <meta property="og:title" content="Professional Web Development Services | AI Website Builder - WeebStudio">
+  <meta property="og:description" content="Comprehensive web development services including AI website builder, e-commerce solutions, SEO optimization, and custom web design for all business needs.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://yourdomain.com/services.html">
+  <meta property="og:image" content="https://yourdomain.com/images/weebstudio-services-og-image.jpg">
+  <meta property="og:site_name" content="WeebStudio">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Professional Web Development Services | AI Website Builder - WeebStudio">
+  <meta name="twitter:description" content="Comprehensive web development services including AI website builder, e-commerce solutions, SEO optimization, and custom web design for all business needs.">
+  <meta name="twitter:image" content="https://yourdomain.com/images/weebstudio-services-twitter-image.jpg">
+  
+  <!-- Favicon -->
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+  
+  <!-- Preconnect to external domains -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  
+  <!-- Font Awesome and Google Fonts -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+  
+  <!-- Structured Data for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Service",
+      "serviceType": "Web Development",
+      "provider": {
+        "@type": "Organization",
+        "name": "WeebStudio",
+        "url": "https://yourdomain.com"
+      },
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Web Development Services",
+        "itemListElement": [
+          {
+            "@type": "OfferCatalog",
+            "name": "AI Website Builder",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "AI-Powered Website Creation"
+                }
+              }
+            ]
+          },
+          {
+            "@type": "OfferCatalog",
+            "name": "E-commerce Solutions",
+            "itemListElement": [
+              {
+                "@type": "Offer",
+                "itemOffered": {
+                  "@type": "Service",
+                  "name": "Online Store Development"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  </script>
+  
+  <style>
+    :root {
+      --primary: #2563eb;        /* Tech Blue */
+      --primary-dark: #1e40af;
+      --primary-light: #3b82f6;
+      --secondary: #10b981;      /* Tech Green */
+      --secondary-dark: #059669;
+      --accent: #8b5cf6;        /* Tech Purple */
+      --text: #e5e7eb;          /* Light Gray */
+      --text-light: #9ca3af;
+      --dark-bg: #111827;       /* Dark Blue-Gray */
+      --dark-bg-light: #1f2937;
+      --dark-bg-lighter: #374151;
+      --border: #374151;
+      --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
+      --shadow-md: 0 4px 6px rgba(0, 0, 0, 0.3);
+      --shadow-lg: 0 10px 25px rgba(0, 0, 0, 0.3);
+      --shadow-xl: 0 20px 50px rgba(0, 0, 0, 0.4);
+      --radius-sm: 4px;
+      --radius-md: 8px;
+      --radius-lg: 12px;
+      --radius-xl: 16px;
+      --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+      --glow: 0 0 10px rgba(59, 130, 246, 0.5);
+      --glow-secondary: 0 0 10px rgba(16, 185, 129, 0.5);
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: 'Inter', sans-serif;
+      color: var(--text);
+      background-color: var(--dark-bg);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+    
+    /* Header Styles */
+    header {
+      background-color: rgba(17, 24, 39, 0.9);
+      box-shadow: var(--shadow-sm);
+      position: fixed;
+      width: 100%;
+      top: 0;
+      z-index: 1000;
+      transition: var(--transition);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid rgba(55, 65, 81, 0.5);
+    }
+    
+    .header-scrolled {
+      box-shadow: var(--shadow-md);
+    }
+    
+    .header-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 1rem 2rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    
+    .logo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.5rem;
+      font-weight: 500;
+      color: var(--primary);
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: var(--transition);
+    }
+    
+    .logo span {
+      color: var(--secondary);
+    }
+    
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+    }
+    
+    .nav-links a {
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 500;
+      transition: var(--transition);
+      position: relative;
+      padding: 0.5rem 0;
+    }
+    
+    .nav-links a:hover {
+      color: var(--primary-light);
+    }
+    
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: var(--secondary);
+      transition: var(--transition);
+    }
+    
+    .nav-links a:hover::after {
+      width: 100%;
+    }
+    
+    /* Mobile Menu Button */
+    .mobile-menu-btn {
+      display: none;
+      background: none;
+      border: none;
+      color: var(--text);
+      font-size: 1.5rem;
+      cursor: pointer;
+    }
+    
+    /* Mobile Menu */
+    .mobile-menu {
+      display: none;
+      position: fixed;
+      top: 70px;
+      left: 0;
+      right: 0;
+      background: var(--dark-bg-light);
+      z-index: 999;
+      padding: 1rem;
+      box-shadow: var(--shadow-md);
+      border-bottom: 1px solid var(--border);
+    }
+    
+    .mobile-menu.active {
+      display: block;
+    }
+    
+    .mobile-menu a {
+      display: block;
+      color: var(--text);
+      text-decoration: none;
+      padding: 0.75rem 1rem;
+      border-bottom: 1px solid var(--border);
+      transition: var(--transition);
+    }
+    
+    .mobile-menu a:hover {
+      color: var(--primary-light);
+      background: var(--dark-bg-lighter);
+    }
+    
+    /* Hero Section */
+    .page-hero {
+      min-height: 300px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 8rem 2rem 4rem;
+      position: relative;
+      overflow: hidden;
+      background: radial-gradient(circle at 20% 50%, rgba(37, 99, 235, 0.1) 0%, rgba(17, 24, 39, 0.9) 70%);
+    }
+    
+    .page-hero::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="none"><path fill="rgba(59,130,246,0.05)" d="M0,0 L100,0 L100,100 L0,100 Z" /><path fill="none" stroke="rgba(59,130,246,0.1)" stroke-width="0.5" d="M0,0 L100,100 M100,0 L0,100" /></svg>');
+      background-size: 50px 50px;
+      opacity: 0.3;
+      z-index: -1;
+    }
+    
+    .page-hero h1 {
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+      line-height: 1.2;
+      animation: fadeInUp 0.8s ease-out;
+    }
+    
+    .page-hero h1 span {
+      color: var(--secondary);
+    }
+    
+    .page-hero p {
+      font-size: 1.1rem;
+      color: var(--text-light);
+      max-width: 700px;
+      margin: 0 auto;
+      animation: fadeInUp 0.8s ease-out 0.2s;
+      animation-fill-mode: both;
+    }
+    
+    @keyframes fadeInUp {
+      from {
+        opacity: 0;
+        transform: translateY(20px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+    
+    /* Services Grid */
+    .services-section {
+      padding: 4rem 2rem;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+    
+    .services-intro {
+      text-align: center;
+      margin-bottom: 3rem;
+    }
+    
+    .services-intro h2 {
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--text);
+      margin-bottom: 1rem;
+      position: relative;
+      display: inline-block;
+    }
+    
+    .services-intro h2::after {
+      content: '';
+      position: absolute;
+      bottom: -8px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 60px;
+      height: 3px;
+      background: var(--secondary);
+      border-radius: 3px;
+      box-shadow: var(--glow-secondary);
+    }
+    
+    .services-intro p {
+      color: var(--text-light);
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    .services-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 2rem;
+      margin-top: 2rem;
+    }
+    
+    .service-card {
+      background-color: var(--dark-bg-light);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow-md);
+      overflow: hidden;
+      transition: var(--transition);
+      cursor: pointer;
+      border: 1px solid var(--border);
+    }
+    
+    .service-card:hover {
+      transform: translateY(-5px);
+      box-shadow: var(--shadow-lg);
+      border-color: var(--primary-light);
+    }
+    
+    .service-card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: var(--secondary);
+      transform: scaleX(0);
+      transform-origin: left;
+      transition: var(--transition);
+      box-shadow: var(--glow-secondary);
+    }
+    
+    .service-card:hover::before {
+      transform: scaleX(1);
+    }
+    
+    .service-image {
+      height: 180px;
+      background-size: cover;
+      background-position: center;
+      position: relative;
+      overflow: hidden;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    
+    .service-image::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: linear-gradient(135deg, rgba(37, 99, 235, 0.2), rgba(16, 185, 129, 0.2));
+    }
+    
+    .service-icon {
+      font-size: 3.5rem;
+      color: var(--primary);
+      z-index: 2;
+      background-color: rgba(37, 99, 235, 0.1);
+      width: 80px;
+      height: 80px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: var(--transition);
+    }
+    
+    .service-card:hover .service-icon {
+      background-color: var(--primary);
+      color: white;
+      transform: scale(1.1);
+      box-shadow: var(--glow);
+    }
+    
+    .service-content {
+      padding: 1.5rem;
+      position: relative;
+    }
+    
+    .service-content h3 {
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.75rem;
+      transition: var(--transition);
+    }
+    
+    .service-card:hover .service-content h3 {
+      color: var(--primary-light);
+    }
+    
+    .service-content p {
+      color: var(--text-light);
+      font-size: 0.95rem;
+      margin-bottom: 1rem;
+    }
+    
+    .service-meta {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.85rem;
+      color: var(--text-light);
+    }
+    
+    .service-cta {
+      color: var(--primary);
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      transition: var(--transition);
+    }
+    
+    .service-card:hover .service-cta {
+      color: var(--secondary);
+      transform: translateX(5px);
+    }
+    
+    /* Modal Styles */
+    .modal {
+      display: none;
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.7);
+      backdrop-filter: blur(5px);
+      z-index: 2000;
+      justify-content: center;
+      align-items: center;
+      padding: 1rem;
+      opacity: 0;
+      transition: opacity 0.3s ease;
+    }
+    
+    .modal.active {
+      opacity: 1;
+      display: flex;
+    }
+    
+    .modal-content {
+      width: 100%;
+      max-width: 600px;
+      background: var(--dark-bg-light);
+      border-radius: var(--radius-xl);
+      box-shadow: var(--shadow-xl);
+      position: relative;
+      transform: translateY(20px);
+      transition: all 0.3s ease;
+      border: 1px solid var(--border);
+    }
+    
+    .modal.active .modal-content {
+      transform: translateY(0);
+    }
+    
+    .close-modal {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      color: var(--text-light);
+      font-size: 1.5rem;
+      cursor: pointer;
+      transition: var(--transition);
+      z-index: 10;
+      background: none;
+      border: none;
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 50%;
+    }
+    
+    .close-modal:hover {
+      color: var(--text);
+      background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    /* Form Styles */
+    .form-container {
+      padding: 2rem;
+    }
+    
+    .form-title {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+    
+    .form-title h3 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-title p {
+      color: var(--text-light);
+    }
+    
+    .form-group {
+      margin-bottom: 1.5rem;
+    }
+    
+    .form-group label {
+      display: block;
+      font-size: 0.875rem;
+      font-weight: 500;
+      color: var(--text);
+      margin-bottom: 0.5rem;
+    }
+    
+    .form-group input,
+    .form-group textarea,
+    .form-group select {
+      width: 100%;
+      padding: 0.75rem 1rem;
+      background: var(--dark-bg-lighter);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-sm);
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      color: var(--text);
+      transition: var(--transition);
+    }
+    
+    .form-group input::placeholder,
+    .form-group textarea::placeholder {
+      color: var(--text-light);
+      opacity: 0.7;
+    }
+    
+    .form-group input:focus,
+    .form-group textarea:focus,
+    .form-group select:focus {
+      outline: none;
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.2);
+    }
+    
+    .form-group textarea {
+      resize: vertical;
+      min-height: 120px;
+    }
+    
+    .form-submit {
+      width: 100%;
+      padding: 0.875rem;
+      background-color: var(--primary);
+      color: var(--text);
+      border: none;
+      border-radius: var(--radius-sm);
+      font-family: 'Inter', sans-serif;
+      font-size: 1rem;
+      font-weight: 600;
+      cursor: pointer;
+      transition: var(--transition);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    
+    .form-submit:hover {
+      background-color: var(--primary-dark);
+      transform: translateY(-2px);
+      box-shadow: var(--shadow-md), var(--glow);
+    }
+    
+    /* Terminal Styles */
+    .terminal {
+      display: none;
+      background-color: #0f172a;
+      color: #e2e8f0;
+      font-family: 'JetBrains Mono', monospace;
+      padding: 1.5rem;
+      border-radius: var(--radius-md);
+      min-height: 200px;
+      max-height: 300px;
+      overflow-y: auto;
+      margin-top: 1.5rem;
+      position: relative;
+      line-height: 1.5;
+      font-size: 0.9rem;
+      box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+      border: 1px solid #1e293b;
+    }
+    
+    .terminal-header {
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      padding: 0.5rem 1rem;
+      background-color: #0f172a;
+      color: #94a3b8;
+      font-size: 0.75rem;
+      border-bottom: 1px solid #1e293b;
+      display: flex;
+      justify-content: space-between;
+    }
+    
+    .terminal-content {
+      margin-top: 2rem;
+    }
+    
+    .typing::after {
+      content: '_';
+      animation: blink 0.7s infinite;
+      color: #e2e8f0;
+      font-weight: bold;
+    }
+    
+    @keyframes blink {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0; }
+    }
+    
+    .status {
+      margin-top: 1rem;
+      font-size: 0.875rem;
+      color: var(--text-light);
+      text-align: center;
+    }
+    
+    /* Footer */
+    footer {
+      background-color: var(--dark-bg-light);
+      padding: 4rem 2rem 2rem;
+      border-top: 1px solid var(--border);
+      position: relative;
+    }
+    
+    footer::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(to right, var(--primary), var(--secondary));
+    }
+    
+    .footer-container {
+      max-width: 1200px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 2rem;
+    }
+    
+    .footer-logo {
+      font-family: 'JetBrains Mono', monospace;
+      font-size: 1.25rem;
+      font-weight: 500;
+      color: var(--primary);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    
+    .footer-about p {
+      color: var(--text-light);
+      margin-bottom: 1.5rem;
+    }
+    
+    .footer-links h4 {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text);
+      margin-bottom: 1rem;
+      position: relative;
+      padding-bottom: 0.5rem;
+    }
+    
+    .footer-links h4::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 40px;
+      height: 2px;
+      background: var(--secondary);
+    }
+    
+    .footer-links ul {
+      list-style: none;
+    }
+    
+    .footer-links li {
+      margin-bottom: 0.5rem;
+    }
+    
+    .footer-links a {
+      color: var(--text-light);
+      text-decoration: none;
+      transition: var(--transition);
+      display: inline-block;
+    }
+    
+    .footer-links a:hover {
+      color: var(--primary-light);
+      transform: translateX(5px);
+    }
+    
+    .social-links {
+      display: flex;
+      gap: 1rem;
+      margin-top: 1rem;
+    }
+    
+    .social-links a {
+      color: var(--text-light);
+      font-size: 1.25rem;
+      transition: var(--transition);
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: rgba(55, 65, 81, 0.5);
+    }
+    
+    .social-links a:hover {
+      color: var(--text);
+      background: var(--primary);
+      transform: translateY(-3px);
+      box-shadow: var(--glow);
+    }
+    
+    .copyright {
+      text-align: center;
+      margin-top: 3rem;
+      padding-top: 2rem;
+      border-top: 1px solid var(--border);
+      color: var(--text-light);
+      font-size: 0.875rem;
+    }
+    
+    /* Responsive Styles */
+    @media (max-width: 1024px) {
+      .services-grid {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      }
+    }
+    
+    @media (max-width: 768px) {
+      .page-hero h1 {
+        font-size: 2rem;
+      }
+      
+      .nav-links {
+        display: none;
+      }
+      
+      .mobile-menu-btn {
+        display: block;
+      }
+    }
+    
+    @media (max-width: 640px) {
+      .header-container {
+        padding: 1rem;
+      }
+      
+      .page-hero {
+        padding: 6rem 1.5rem 3rem;
+      }
+      
+      .services-grid {
+        grid-template-columns: 1fr;
+      }
+      
+      .footer-container {
+        grid-template-columns: 1fr;
+      }
+      
+      .modal-content {
+        max-width: 95%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header id="header">
+    <div class="header-container">
+      <a href="index.html" class="logo" aria-label="WeebStudio Home"><span>&lt;/&gt;</span> WeebStudio</a>
+      <nav class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="services.html" class="active">Services</a>
+        <a href="about.html">About Us</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+      <button class="mobile-menu-btn" id="mobileMenuBtn" aria-label="Toggle mobile menu">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="index.html">Home</a>
+      <a href="services.html" class="active">Services</a>
+      <a href="about.html">About Us</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </header>
+
+  <section class="page-hero">
+    <h1>Our <span>Website</span> Services</h1>
+    <p>Explore our specialized website solutions tailored for every industry and business need</p>
+  </section>
+
+  <section class="services-section">
+    <div class="services-intro">
+      <h2>Our Specialized Services</h2>
+      <p>We offer tailored web solutions for every industry, ensuring your online presence matches your business needs perfectly.</p>
+    </div>
+    
+    <div class="services-grid">
+      <!-- Education -->
+      <div class="service-card" data-type="school">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-graduation-cap service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Education</h3>
+          <p>Complete solutions for schools, universities, and e-learning platforms.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Food Business -->
+      <div class="service-card" data-type="bakery">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1608198093002-ad4e005484ec?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-cookie-bite service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Food & Beverage</h3>
+          <p>Delicious online presence for bakeries, cafes, and restaurants.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- SEO -->
+      <div class="service-card" data-type="seo">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-search-plus service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>SEO Optimization</h3>
+          <p>Boost your website's visibility and organic traffic.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Restaurant -->
+      <div class="service-card" data-type="restaurant">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-utensils service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Restaurants</h3>
+          <p>Online menus, reservation systems, and food delivery integration.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Medical -->
+      <div class="service-card" data-type="medical">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1576091160550-2173dba999ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-hospital-user service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Medical</h3>
+          <p>HIPAA-compliant websites for clinics and private practices.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- E-commerce -->
+      <div class="service-card" data-type="ecommerce">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-shopping-bag service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>E-commerce</h3>
+          <p>Full-featured online stores with payment gateways.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div class="service-card" data-type="portfolio">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-user-tie service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Portfolio</h3>
+          <p>Showcase your work with elegant designs for creatives.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Real Estate -->
+      <div class="service-card" data-type="realestate">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-home service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Real Estate</h3>
+          <p>Property listings with search filters and virtual tours.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Hotel -->
+      <div class="service-card" data-type="hotel">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-concierge-bell service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Hospitality</h3>
+          <p>Booking systems and amenities showcase for hotels.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Fitness -->
+      <div class="service-card" data-type="fitness">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-running service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Fitness</h3>
+          <p>Class schedules and member portals for gyms and studios.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Wedding -->
+      <div class="service-card" data-type="wedding">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-glass-cheers service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Wedding</h3>
+          <p>Elegant designs for wedding planners and venues.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Photography -->
+      <div class="service-card" data-type="photography">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1472214103451-9374bd1c798e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-camera-retro service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Photography</h3>
+          <p>Gallery-focused websites with portfolio displays.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Law Firm -->
+      <div class="service-card" data-type="law">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-balance-scale service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Legal</h3>
+          <p>Professional websites for legal practices and firms.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Non-Profit -->
+      <div class="service-card" data-type="nonprofit">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-hands-helping service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Non-Profit</h3>
+          <p>Donation systems and volunteer signups for charities.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Automotive -->
+      <div class="service-card" data-type="automotive">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1494976388531-d1058494cdd8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-car-alt service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Automotive</h3>
+          <p>Inventory displays and service scheduling for dealerships.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Salon -->
+      <div class="service-card" data-type="salon">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1595476108010-b4d1f102b1b1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-spa service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Beauty</h3>
+          <p>Appointment booking and service menus for salons.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Blog -->
+      <div class="service-card" data-type="blog">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1546074177-ffdda98d214f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-pen-fancy service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Blogging</h3>
+          <p>Content management systems with SEO optimization.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Construction -->
+      <div class="service-card" data-type="construction">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-tools service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Construction</h3>
+          <p>Project galleries and service areas for contractors.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pet Services -->
+      <div class="service-card" data-type="pets">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1586671267731-da2cf3ceeb80?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-paw service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Pet Services</h3>
+          <p>Grooming, boarding, and veterinary websites.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Travel -->
+      <div class="service-card" data-type="travel">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1503220317375-aaad61436b1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-plane-departure service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Travel</h3>
+          <p>Tour packages and booking systems for agencies.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Music -->
+      <div class="service-card" data-type="music">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-music service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Music</h3>
+          <p>Audio players and tour dates for musicians.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Event Planning -->
+      <div class="service-card" data-type="events">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1511578314322-379afb476865?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-calendar-check service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Events</h3>
+          <p>Event calendars and ticket sales for organizers.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Consulting -->
+      <div class="service-card" data-type="consulting">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-chart-line service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Consulting</h3>
+          <p>Professional profiles and service offerings.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Technology -->
+      <div class="service-card" data-type="tech">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1518770660439-4636190af475?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-microchip service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Technology</h3>
+          <p>Product showcases and support systems.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Agriculture -->
+      <div class="service-card" data-type="agriculture">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1500382017468-9049fed747ef?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-tractor service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Agriculture</h3>
+          <p>Farm profiles and product catalogs.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Art Gallery -->
+      <div class="service-card" data-type="art">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1536922246289-88c42f957773?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-paint-brush service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Art</h3>
+          <p>Virtual exhibitions and artist profiles.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Religious -->
+      <div class="service-card" data-type="religious">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1588591795089-5d71a0eaa1fe?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-pray service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Religious</h3>
+          <p>Event calendars and community boards.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sports -->
+      <div class="service-card" data-type="sports">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-football-ball service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Sports</h3>
+          <p>Team profiles and registration systems.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Custom Solution -->
+      <div class="service-card" data-type="custom">
+        <div class="service-image" style="background-image: url('https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80');">
+          <i class="fas fa-lightbulb service-icon"></i>
+        </div>
+        <div class="service-content">
+          <h3>Custom Solution</h3>
+          <p>Tailored websites for unique business needs.</p>
+          <div class="service-meta">
+            <span class="service-cta">Get Started <i class="fas fa-arrow-right"></i></span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Modal with Form -->
+  <div class="modal" id="generatorModal">
+    <div class="modal-content">
+      <button class="close-modal" aria-label="Close modal">&times;</button>
+      <div class="form-container">
+        <div class="form-title">
+          <h3>Website Service Request</h3>
+          <p>Provide some details to get started with your custom website solution</p>
+        </div>
+        <form id="enquiryForm">
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" id="name" name="name" placeholder="John Doe" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Contact Information</label>
+            <input type="text" id="phone" name="phone" placeholder="Email or phone number" required />
+          </div>
+          <div class="form-group">
+            <label for="enquiry">Project Details</label>
+            <textarea id="enquiry" name="enquiry" placeholder="Tell us about your website needs (e.g. 'School website with student portal' or 'E-commerce store for handmade goods')" required></textarea>
+          </div>
+          <button type="submit" class="form-submit">
+            <i class="fas fa-paper-plane"></i> Submit Request
+          </button>
+          <div id="statusMsg" class="status"></div>
+        </form>
+
+        <div id="terminal" class="terminal">
+          <div class="terminal-header">WEBSITE_REQUEST [v2.4.1]</div>
+          <div class="terminal-content"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer>
+    <div class="footer-container">
+      <div class="footer-about">
+        <div class="footer-logo"><span>&lt;/&gt;</span> WeebStudio</div>
+        <p>Professional web development and digital solutions for businesses of all sizes. Create your free website today with our AI website builder.</p>
+        <div class="social-links">
+          <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+          <a href="#" aria-label="GitHub"><i class="fab fa-github"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        </div>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="services.html" class="active">Services</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Services</h4>
+        <ul>
+          <li><a href="#">AI Website Builder</a></li>
+          <li><a href="#">Web Development</a></li>
+          <li><a href="#">E-commerce Solutions</a></li>
+          <li><a href="#">SEO Optimization</a></li>
+        </ul>
+      </div>
+      <div class="footer-links">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="#">Privacy Policy</a></li>
+          <li><a href="#">Terms of Service</a></li>
+          <li><a href="#">Cookie Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      © 2023 WeebStudio. All rights reserved. | Professional Web Development Services | AI Website Builder
+    </div>
+  </footer>
+
+  <script>
+    // Header scroll effect
+    window.addEventListener('scroll', function() {
+      const header = document.getElementById('header');
+      if (window.scrollY > 50) {
+        header.classList.add('header-scrolled');
+      } else {
+        header.classList.remove('header-scrolled');
+      }
+    });
+
+    // Mobile menu toggle
+    const mobileMenuBtn = document.getElementById('mobileMenuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    
+    mobileMenuBtn.addEventListener('click', function() {
+      mobileMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking a link
+    const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+    mobileMenuLinks.forEach(link => {
+      link.addEventListener('click', () => {
+        mobileMenu.classList.remove('active');
+      });
+    });
+
+    // Modal and Form Handling
+    const modal = document.getElementById("generatorModal");
+    const serviceCards = document.querySelectorAll(".service-card");
+    const closeModal = document.querySelector(".close-modal");
+    const form = document.getElementById("enquiryForm");
+    const statusMsg = document.getElementById("statusMsg");
+    const terminal = document.getElementById("terminal");
+    const terminalContent = document.querySelector(".terminal-content");
+    const placeholder = "BUSINESS_TYPES_PLACEHOLDER";
+
+    const fakeCodeLines = [
+      "Initializing request processing v2.4.1",
+      "Connecting to project management system...",
+      "Analyzing project requirements...",
+      `Detected service category: ${placeholder}`,
+      "Reviewing specifications (25%)",
+      "Estimating project timeline (50%)",
+      "Preparing initial proposal (75%)",
+      "Finalizing details (90%)",
+      "Request processed successfully (100%)",
+      "Our team will contact you within 24 hours"
+    ];
+
+    // Open modal when service card is clicked
+    serviceCards.forEach(card => {
+      card.addEventListener("click", () => {
+        modal.style.display = "flex";
+        document.body.style.overflow = "hidden";
+        setTimeout(() => {
+          modal.classList.add("active");
+        }, 10);
+      });
+    });
+
+    // Close modal
+    closeModal.addEventListener("click", () => {
+      modal.classList.remove("active");
+      setTimeout(() => {
+        modal.style.display = "none";
+        document.body.style.overflow = "auto";
+      }, 300);
+    });
+
+    // Close modal when clicking outside
+    window.addEventListener("click", (e) => {
+      if (e.target === modal) {
+        modal.classList.remove("active");
+        setTimeout(() => {
+          modal.style.display = "none";
+          document.body.style.overflow = "auto";
+        }, 300);
+      }
+    });
+
+    // Terminal typing animation
+    function typeLines(lines, i = 0) {
+      if (i >= lines.length) {
+        terminalContent.innerHTML += `<br><br><span style="color: #10b981; font-weight: 500;">Request submitted successfully!</span>`;
+        terminalContent.innerHTML += `<br><span style="color: #8b5cf6;">We'll contact you shortly with next steps.</span>`;
+        return;
+      }
+      
+      let line = lines[i];
+      if (i === 3) {
+        const textarea = document.querySelector('textarea');
+        line = line.replace(placeholder, `"${textarea.value}"`);
+      }
+      
+      terminalContent.innerHTML += `<span style="color: #e2e8f0;">${line}</span><br>`;
+      terminal.scrollTop = terminal.scrollHeight;
+      setTimeout(() => typeLines(lines, i + 1), Math.random() * 200 + 300);
+    }
+
+    // Form submission
+    form.addEventListener("submit", function(e) {
+      e.preventDefault();
+      statusMsg.textContent = "";
+      form.style.display = "none";
+      terminal.style.display = "block";
+      terminalContent.innerHTML = `<span style="color: #94a3b8;">Processing your request: <span class="typing"></span></span>`;
+
+      setTimeout(() => {
+        terminalContent.innerHTML = "";
+        typeLines(fakeCodeLines);
+      }, 1500);
+
+      // Send the form data (no need to wait for response to animate)
+      const formData = new FormData(form);
+      fetch("https://script.google.com/macros/s/AKfycbwgQycJEjcgTOaoVyDP-tcTOu-dcW2ueZxh9nnbrpKuYDmFCScLy_WXy2jc1tsdq_5t/exec", {
+        method: "POST",
+        body: formData
+      }).catch(error => {
+        console.error("Error:", error);
+        statusMsg.textContent = "There was an error submitting your request. Please try again.";
+        statusMsg.style.color = "#ef4444";
+      });
+    });
+
+    // Animate elements on scroll
+    const animateOnScroll = function() {
+      const elements = document.querySelectorAll('.services-grid, .service-card');
+      
+      elements.forEach(element => {
+        const elementPosition = element.getBoundingClientRect().top;
+        const windowHeight = window.innerHeight;
+        
+        if (elementPosition < windowHeight - 100) {
+          element.style.opacity = '1';
+          element.style.transform = 'translateY(0)';
+        }
+      });
+    };
+
+    // Initialize animation states
+    window.addEventListener('load', function() {
+      document.querySelectorAll('.services-grid').forEach(el => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'all 0.6s ease';
+      });
+      
+      document.querySelectorAll('.service-card').forEach((el, i) => {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = `all 0.6s ease ${i * 0.1}s`;
+      });
+      
+      animateOnScroll();
+    });
+
+    window.addEventListener('scroll', animateOnScroll);
+  </script>
+</body>
+</html>
